@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 class MedicineScreen extends StatelessWidget {
+  const MedicineScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Text(
         'Medicine Screen',
         style: TextStyle(fontSize: 24),
